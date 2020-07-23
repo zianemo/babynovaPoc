@@ -16,8 +16,11 @@
     "lodash.defaultsdeep": "^4.6.1",
     "mixin-deep": "^2.0.1",
     "set-value": "^3.0.1",
+    "uuid": "^8.2.0",
     "vue": "^2.6.11",
+    "vue-initials-img": "^1.0.4",
     "vue-router": "^3.1.5",
+    "vuejs-datepicker": "^1.6.2",
     "vuetify": "^2.2.11",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-dev-server": "^3.10.1"
@@ -25,7 +28,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.2",
     "@vue/cli-plugin-eslint": "^4.1.2",
-    "@vue/cli-service": "^3.0.5",
+    "@vue/cli-service": "^4.4.5",
     "babel-eslint": "^10.0.3",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",

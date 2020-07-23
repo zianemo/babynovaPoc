@@ -12,6 +12,9 @@ Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 
 new Vue({
+  data: {
+    creationDate: new Date().toISOString().substr(0, 10) // currentDate
+  },
   router,
   vuetify,
   render: h => h(App)

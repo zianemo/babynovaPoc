@@ -3,6 +3,7 @@ import BoardList from '@/components/BoardList'
 import ShowBoard from '@/components/ShowBoard'
 import AddBoard from '@/components/AddBoard'
 import EditBoard from '@/components/EditBoard'
+import test from '@/components/test'
 
 export default new VueRouter({
   routes: [
@@ -25,6 +26,11 @@ export default new VueRouter({
       path: '/edit-board/:id',
       name: 'EditBoard',
       component: EditBoard
+    },
+    {
+      path: '/test/',
+      name: 'test',
+      component: test
     }
   ]
 })
